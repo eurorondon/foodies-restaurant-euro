@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/food-logo.png";
+import Logo from "../../assets/food-logo2.png";
 import { FaCartShopping } from "react-icons/fa6";
 import DarkMode from "./DarkMode";
 
@@ -11,12 +11,12 @@ const Menu = [
   },
   {
     id: 2,
-    name: "Services",
+    name: "Servicios",
     link: "/#services",
   },
   {
     id: 3,
-    name: "About",
+    name: "Nosotros",
     link: "/#about",
   },
 ];
@@ -26,10 +26,13 @@ const Navbar = () => {
       <div className="shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200">
         <div className="container py-3 sm:py-0">
           <div className="flex justify-between items-center">
-            <div>
-              <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
-                <img src={Logo} alt="Logo" className="w-10" />
-                Foodie
+            <div className="">
+              <a
+                href="#"
+                className="font-bold text-2xl sm:text-3xl flex items-center gap-2"
+              >
+                <img src={Logo} alt="Logo" className="w-28" />
+                <span>MS</span>
               </a>
             </div>
             <div className="flex justify-between items-center gap-4">

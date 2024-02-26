@@ -29,7 +29,7 @@ const App = () => {
       <Banner />
       {/* <CoverBanner /> */}
       <AppStore />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Footer />
     </div>
   );

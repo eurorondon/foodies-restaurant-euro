@@ -6,30 +6,30 @@ import {
   FaLocationArrow,
   FaMobileAlt,
 } from "react-icons/fa";
-import footerLogo from "../../assets/food-logo.png";
+import footerLogo from "../../assets/food-logo2.png";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-100 dark:bg-gray-950">
+    <div className="bg-dark text-white dark:bg-gray-950">
       <section className="max-w-[1200px] mx-auto">
         <div className=" grid md:grid-cols-3 py-5">
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
               <img src={footerLogo} alt="Logo" className="max-w-[50px]" />
-              FOODIE
+              Mantel Servido
             </h1>
-            <p className="">
+            {/* <p className="">
               Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
               consectetur adipisicing elit. Possimus, voluptate.{" "}
             </p>
-            <br />
+            <br /> */}
             <div className="flex items-center gap-3">
               <FaLocationArrow />
               <p>Noida, Uttar Pradesh</p>
             </div>
             <div className="flex items-center gap-3 mt-3">
               <FaMobileAlt />
-              <p>+91 123456789</p>
+              <p>+58 4245116397</p>
             </div>
             {/* Social Handle */}
             <div className="flex items-center gap-3 mt-6">
@@ -89,7 +89,7 @@ const Footer = () => {
         </div>
         <div>
           <div className="text-center py-10 border-t-2 border-gray-300/50">
-            @copyright 2024 All rights reserved || Made with ❤️ by Dilshad
+            @copyright 2024 All rights reserved || Made by Euro R.
           </div>
         </div>
       </section>

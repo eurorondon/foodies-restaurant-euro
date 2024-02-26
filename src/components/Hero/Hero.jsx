@@ -1,8 +1,8 @@
 import React from "react";
-import BiryaniImg1 from "../../assets/biryani3.png";
-import BiryaniImg2 from "../../assets/biryani5.png";
+import BiryaniImg1 from "../../assets/pizza.png";
+import BiryaniImg2 from "../../assets/salad.png";
 import BiryaniImg3 from "../../assets/biryani2.png";
-import Vector from "../../assets/vector3.png";
+import Vector from "../../assets/vector6.png";
 
 const ImageList = [
   {
@@ -47,15 +47,16 @@ const Hero = () => {
               className="flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1"
             >
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">
-                Welcome{" "}
-                <span class="bg-clip-text text-transparent bg-gradient-to-b from-primary to-secondary">
-                  Foodie
+                Bienvenido a{" "}
+                <span className="bg-clip-text text-transparent bg-gradient-to-b from-primary to-secondary">
+                  Mantel
                 </span>{" "}
-                Zone
+                Servido
               </h1>
-              <p className="text-sm ">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-                reiciendis inventore iste ratione ex alias quis magni at optio
+              <p className="text-sm md:text-lg  ">
+                Sumérgete en la historia de nuestro restaurante, donde cada
+                plato cuenta una narrativa única. Desde nuestras raíces hasta el
+                presente.
               </p>
               <div>
                 <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
@@ -75,7 +76,7 @@ const Hero = () => {
                   className="w-[300px] sm:w-[450px] sm:scale-125  mx-auto spin "
                 />
               </div>
-              <div className="flex lg:flex-col lg:top-1/2 lg:-translate-y-1/2 lg:py-2 justify-center gap-4 absolute bottom-[0px] lg:-right-10 bg-white/30 rounded-full">
+              <div className="flex lg:flex-col lg:top-1/3 lg:-translate-y-1/2 lg:py-2 justify-center gap-4 absolute bottom-[0px] lg:-right-10 bg-white/80 rounded-full">
                 {ImageList.map((item) => (
                   <img
                     data-aos="zoom-in"

@@ -6,14 +6,14 @@ import { IoFastFood } from "react-icons/io5";
 import { GiFoodTruck } from "react-icons/gi";
 
 const Banner = () => {
-  const bgImage = {
-    backgroundImage: `url(${Vector})`,
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-    height: "100%",
-    width: "100%",
-  };
+  // const bgImage = {
+  //   backgroundImage: `url(${Vector})`,
+  //   backgroundPosition: "center",
+  //   backgroundRepeat: "no-repeat",
+  //   backgroundSize: "cover",
+  //   height: "100%",
+  //   width: "100%",
+  // };
   return (
     <>
       <div className="min-h-[550px]">
@@ -34,19 +34,20 @@ const Banner = () => {
               </div>
               {/* text content section */}
               <div className="flex flex-col justify-center gap-6 sm:pt-0">
-                <h1 className="text-3xl sm:text-4xl font-bold">
-                  Lorem, ipsum dolor.
-                </h1>
-                <p className="text-sm text-gray-500 tracking-wide leading-5">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Eaque reiciendis inventore iste ratione ex alias quis magni at
-                  optio
+                <h2 className="text-3xl sm:text-4xl font-bold">
+                  ¿Por que Nosotros?
+                </h2>
+                <p className=" text-sm lg:text-lg  text-gray-500 tracking-wide leading-5">
+                  En nuestro restaurante, nos enorgullece ofrecer un servicio
+                  excepcional que va más allá de la simple comida; es una
+                  experiencia completa. Desde el momento en que entras por
+                  nuestras puertas, nuestro equipo está dedicado a
+                  proporcionarte un trato personalizado y acogedor.
                   <br />
                   <br />
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Beatae ab sed, exercitationem minima aliquid eligendi
-                  distinctio? Fugit repudiandae numquam hic quo recusandae.
-                  Excepturi totam ad nam velit quasi quidem aspernatur.
+                  Nuestros meseros, capacitados y apasionados, están listos para
+                  guiarte a través de nuestra carta, responder a cualquier
+                  pregunta y hacer recomendaciones según tus preferencias.
                 </p>
                 <div className="flex gap-6">
                   <div>
